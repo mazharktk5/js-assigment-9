@@ -30,7 +30,7 @@
 
 // var sum = 0;
 // for (var i = 0; i < numbers.length; i++) {
-//     sum += numbers[i];
+//     sum += numbers[i];  
 // }
 
 
@@ -44,8 +44,6 @@
 // // 1. user se 5 numbers le and unko aik aik kar k array me rakhe
 // // 2. phr array elements me SUB SE BARA NUMBER find kar k print kare
 // ==================================================
-
-
 
 
 //  var numbers = [];
@@ -67,6 +65,27 @@
 // console.log("The largest number in the array is:", largestNumber);
 
 
+
+
+// // ========================================
+// // 4. USER SE STRING LE AND USKO ULTA PRINT KARE
+// // // DESCRIPTION:
+// // // 1. user se koi b string input le
+// // // 2. usko reverse me print karde e.g: mehtab -> bathem
+// // ========================================
+
+
+// var string = "Mehtab alam";
+// var result = "";
+// for (var i = string.length - 1; i >= 0; i--) {
+//     result += string[i];
+// }
+// console.log(result);
+
+
+
+
+
 // ===============================================
 // // 5. FACTORIAL
 // // // DESCRIPTION:
@@ -75,10 +94,10 @@
 // ===============================================
 
 
-// let userInput = prompt("Enter a number:");
+// var userInput = prompt("Enter a number:");
 
-// let factorial = 1;
-// for (let i = 1; i <= userInput; i++) {
+// var factorial = 1;
+// for (var i = 1; i <= userInput; i++) {
 //     factorial *= i;
 // }
 
@@ -87,17 +106,4 @@
 
 
 
-// ========================================
-// 4. USER SE STRING LE AND USKO ULTA PRINT KARE
-// // DESCRIPTION:
-// // 1. user se koi b string input le
-// // 2. usko reverse me print karde e.g: mehtab -> bathem
-// ========================================
 
-
-var string = "Mehtab alam";
-var result = "";
-for (var i = string.length - 1; i >= 0; i--) {
-    result += string[i];
-}
-console.log(result);
